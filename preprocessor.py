@@ -17,7 +17,7 @@ import hashlib
 import re
 import unicodedata
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Optional, Tuple
 
 from bs4 import BeautifulSoup, Comment
@@ -117,7 +117,7 @@ def build_clean_article(
         paragraphs=paragraphs,
         content_hash=content_hash,
         url_hash=url_hash,
-        scraped_at=datetime.utcnow().isoformat(),
+        scraped_at=datetime.now(timezone.utc).isoformat(),
     )
 
 
