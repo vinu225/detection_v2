@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import time
 from contextlib import asynccontextmanager
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List
 
 from fastapi import Depends, FastAPI, HTTPException, Request, status
@@ -139,7 +139,7 @@ def health_check():
     return HealthResponse(
         status="ok" if db_status == "ok" else "degraded",
         database=db_status,
-        timestamp=datetime.utcnow().isoformat(),
+        timestamp=datetime.now(timezone.utc).isoformat(),
     )
 
 
