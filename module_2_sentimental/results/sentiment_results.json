@@ -1,0 +1,562 @@
+[
+  {
+    "article_id": "bench_0",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.712850+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_1",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.713899+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_2",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.714893+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_3",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.715883+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_4",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.716855+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_5",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.717843+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_6",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.719098+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_7",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.720080+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_8",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.721030+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_9",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.721970+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_10",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.722942+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_11",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.723973+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_12",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.724928+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_13",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.725864+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_14",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.726789+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_15",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.727711+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_16",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.728702+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_17",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.729683+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_18",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.730627+00:00",
+    "headline_sentiment": {
+      "label": "Positive",
+      "confidence": 0.9966,
+      "negative_probability": 0.0009,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.9966
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": 20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  },
+  {
+    "article_id": "bench_19",
+    "source": "",
+    "author": "",
+    "url": "",
+    "publication_date": "",
+    "processed_timestamp": "2026-06-17T16:06:44.731581+00:00",
+    "headline_sentiment": {
+      "label": "Negative",
+      "confidence": 0.9966,
+      "negative_probability": 0.9966,
+      "neutral_probability": 0.0025,
+      "positive_probability": 0.0009
+    },
+    "article_sentiment": {
+      "label": "Neutral",
+      "confidence": 0.9647,
+      "negative_probability": 0.0177,
+      "neutral_probability": 0.9647,
+      "positive_probability": 0.0177
+    },
+    "negative_probability": 0.0177,
+    "neutral_probability": 0.9647,
+    "positive_probability": 0.0177,
+    "sentiment_score": -20,
+    "emotional_intensity": 14,
+    "sentiment_reliability": 96
+  }
+]

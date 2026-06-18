@@ -1,0 +1,1200 @@
+[2026-06-16 23:36:33,665] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpi703m7h4.html
+[2026-06-16 23:36:33,667] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-16 23:36:33,683] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpf3dux6vi.json
+[2026-06-16 23:36:33,697] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmprkw8x7j4.json
+[2026-06-16 23:36:33,703] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpojaamytz.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:36:33,703] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpojaamytz.json
+[2026-06-16 23:36:33,709] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpaz4l_2v8.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:36:33,709] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpaz4l_2v8.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:36:33,711] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-16 23:36:33,714] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmp0ycyqmvy.json
+[2026-06-16 23:36:33,717] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmp4eoog7y_.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-16 23:36:33,721] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-16 23:36:33,725] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpobzlgqx5.json
+[2026-06-16 23:36:33,727] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,728] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,728] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,728] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,732] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,732] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,732] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,732] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,733] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,743] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp88iukj_6.json
+[2026-06-16 23:36:33,745] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:33,745] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:36:33,758] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,759] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,759] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,759] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,760] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,763] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp1hjcsyrv.html
+[2026-06-16 23:36:33,765] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:33,765] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:36:33,767] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,767] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,767] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,768] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,771] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,772] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpy8zfj6af.
+[2026-06-16 23:36:33,773] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpy8zfj6af\article1.json
+[2026-06-16 23:36:33,775] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpy8zfj6af\articles_array.json
+[2026-06-16 23:36:33,779] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpy8zfj6af\page.html
+[2026-06-16 23:36:33,781] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:33,781] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-16 23:36:33,784] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,784] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,784] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,784] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,785] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,785] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-16 23:36:33,787] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:33,787] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-16 23:36:33,789] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,790] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,790] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,790] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,790] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,791] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-16 23:36:33,792] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,793] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,793] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,793] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,794] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,794] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmp8_z30oxk.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmp8_z30oxk.txt
+[2026-06-16 23:36:33,795] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:33,795] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-16 23:36:33,813] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:36:33,813] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,815] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,816] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,817] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:36:33,818] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,819] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:33,820] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,820] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,820] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:33,820] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:33,820] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-16 23:36:33,849] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:33,849] INFO [sentiment_module:235]: Pipeline batch run completed in 0.03s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-16 23:36:33,852] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,852] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,855] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,855] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,857] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,857] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,863] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,863] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,866] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,866] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,874] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,875] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:33,902] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:33,902] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,627] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpl8z4suzh.html
+[2026-06-16 23:36:41,629] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-16 23:36:41,646] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpd0yol8j7.json
+[2026-06-16 23:36:41,651] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmpm5qxi9ol.json
+[2026-06-16 23:36:41,655] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp41oa85ww.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:36:41,655] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp41oa85ww.json
+[2026-06-16 23:36:41,659] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpy4wms60y.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:36:41,659] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpy4wms60y.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:36:41,661] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-16 23:36:41,664] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmp8n8dhbj8.json
+[2026-06-16 23:36:41,667] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmp0mertrfj.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-16 23:36:41,672] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-16 23:36:41,677] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp7b2jch4u.json
+[2026-06-16 23:36:41,679] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,682] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,682] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,682] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,685] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,685] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,685] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,685] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,686] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,688] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpq08gastt.json
+[2026-06-16 23:36:41,689] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:41,689] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:36:41,707] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,707] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,707] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,707] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,708] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,712] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp5vz_jjw1.html
+[2026-06-16 23:36:41,714] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:41,714] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:36:41,716] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,716] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,716] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,716] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,719] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,720] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpaj43cfka.
+[2026-06-16 23:36:41,724] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpaj43cfka\article1.json
+[2026-06-16 23:36:41,726] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpaj43cfka\articles_array.json
+[2026-06-16 23:36:41,731] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpaj43cfka\page.html
+[2026-06-16 23:36:41,733] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:41,733] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-16 23:36:41,736] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,736] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,736] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,736] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,737] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,737] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-16 23:36:41,738] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:41,739] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-16 23:36:41,741] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,741] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,741] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,741] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,742] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,742] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-16 23:36:41,744] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,744] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,744] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,744] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,746] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,746] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmp6qxf01jx.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmp6qxf01jx.txt
+[2026-06-16 23:36:41,747] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:41,747] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-16 23:36:41,765] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:36:41,765] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,768] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,768] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,770] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:36:41,771] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,772] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:36:41,773] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,773] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,773] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:36:41,773] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:36:41,773] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-16 23:36:41,805] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:36:41,806] INFO [sentiment_module:235]: Pipeline batch run completed in 0.03s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-16 23:36:41,808] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,809] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,811] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,812] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,814] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,814] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,819] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,819] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,821] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,821] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,829] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,830] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:36:41,858] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:36:41,858] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,353] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmprbsaoh11.html
+[2026-06-16 23:37:15,356] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-16 23:37:15,371] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpdcze_wuc.json
+[2026-06-16 23:37:15,376] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmpl3zd2ga7.json
+[2026-06-16 23:37:15,380] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpof_jfxsb.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:37:15,381] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpof_jfxsb.json
+[2026-06-16 23:37:15,385] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpryzbr9x8.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:37:15,385] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpryzbr9x8.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:37:15,388] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-16 23:37:15,390] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpqh0y2ve2.json
+[2026-06-16 23:37:15,394] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmp33hdw73h.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-16 23:37:15,398] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-16 23:37:15,403] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmptu9t9nx4.json
+[2026-06-16 23:37:15,405] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,407] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,407] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,407] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,410] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,411] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,411] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,411] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,412] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,414] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpn4ruvqde.json
+[2026-06-16 23:37:15,416] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:37:15,416] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:37:15,429] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,429] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,429] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,429] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,431] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,434] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp1gyke4kv.html
+[2026-06-16 23:37:15,436] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:37:15,436] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:37:15,438] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,439] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,439] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,439] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,442] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,443] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpf4f8qv75.
+[2026-06-16 23:37:15,447] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpf4f8qv75\article1.json
+[2026-06-16 23:37:15,449] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpf4f8qv75\articles_array.json
+[2026-06-16 23:37:15,453] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpf4f8qv75\page.html
+[2026-06-16 23:37:15,455] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:37:15,455] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-16 23:37:15,458] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,458] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,458] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,459] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,459] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,459] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-16 23:37:15,461] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:37:15,461] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-16 23:37:15,463] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,463] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,463] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,463] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,464] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,464] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-16 23:37:15,466] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,466] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,466] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,466] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,467] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,467] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmp0h9r9aml.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmp0h9r9aml.txt
+[2026-06-16 23:37:15,468] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:37:15,468] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-16 23:37:15,484] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:37:15,484] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,486] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,486] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,488] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:37:15,488] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,490] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:37:15,490] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,490] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,490] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:37:15,490] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:37:15,490] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-16 23:37:15,519] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:37:15,519] INFO [sentiment_module:235]: Pipeline batch run completed in 0.03s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-16 23:37:15,521] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,522] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,524] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,524] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,527] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,527] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,533] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,533] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,536] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,536] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,545] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,545] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:37:15,574] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:37:15,574] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,259] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp5_i6bpyd.html
+[2026-06-16 23:42:53,261] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-16 23:42:53,283] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpjabvakej.json
+[2026-06-16 23:42:53,290] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmp40rofgiz.json
+[2026-06-16 23:42:53,300] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpc3o2qtgp.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:42:53,300] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpc3o2qtgp.json
+[2026-06-16 23:42:53,309] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpn09a990_.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:42:53,309] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpn09a990_.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/value_error
+[2026-06-16 23:42:53,313] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-16 23:42:53,316] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpvgj2h3i1.json
+[2026-06-16 23:42:53,321] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmpxyj3wnvt.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-16 23:42:53,325] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-16 23:42:53,329] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp1iuf2mgr.json
+[2026-06-16 23:42:53,331] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,334] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,334] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,334] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,337] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,337] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,337] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,337] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,338] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,340] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp0j44son_.json
+[2026-06-16 23:42:53,341] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:42:53,341] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:42:53,358] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,358] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,359] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,359] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,360] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,364] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpsovkchjs.html
+[2026-06-16 23:42:53,365] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:42:53,365] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-16 23:42:53,367] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,368] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,368] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,368] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,371] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,372] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmp6s5tq421.
+[2026-06-16 23:42:53,373] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp6s5tq421\article1.json
+[2026-06-16 23:42:53,375] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmp6s5tq421\articles_array.json
+[2026-06-16 23:42:53,380] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp6s5tq421\page.html
+[2026-06-16 23:42:53,382] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:42:53,382] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-16 23:42:53,384] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,385] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,385] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,385] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,385] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,385] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-16 23:42:53,387] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:42:53,387] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-16 23:42:53,389] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,389] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,389] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,390] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,390] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,391] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-16 23:42:53,392] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,393] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,393] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,393] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,394] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,394] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmp4bo8kckv.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmp4bo8kckv.txt
+[2026-06-16 23:42:53,395] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:42:53,395] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-16 23:42:53,409] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:42:53,409] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,412] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,412] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,414] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-16 23:42:53,415] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,417] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-16 23:42:53,417] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,417] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,417] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-16 23:42:53,417] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-16 23:42:53,417] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-16 23:42:53,450] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-16 23:42:53,450] INFO [sentiment_module:235]: Pipeline batch run completed in 0.03s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-16 23:42:53,454] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,455] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,457] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,457] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,459] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,459] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,464] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,465] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,467] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,467] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,476] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,476] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-16 23:42:53,506] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-16 23:42:53,506] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:21,977] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpxsk2wt91.html
+[2026-06-17 09:00:21,980] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 09:00:22,009] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpcwjkxhhp.json
+[2026-06-17 09:00:22,029] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmpnkd5z17n.json
+[2026-06-17 09:00:22,046] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp73r_blxd.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 09:00:22,046] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp73r_blxd.json
+[2026-06-17 09:00:22,062] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmp_yz5mwmu.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 09:00:22,062] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp_yz5mwmu.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 09:00:22,067] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 09:00:22,069] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpnwbw5wi6.json
+[2026-06-17 09:00:22,085] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmpvlise9bf.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 09:00:22,099] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 09:00:22,117] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpvs9mdqxm.json
+[2026-06-17 09:00:22,120] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,121] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,121] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,121] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,125] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,126] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,126] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,126] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,128] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,144] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpn1lrxn7n.json
+[2026-06-17 09:00:22,147] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 09:00:22,147] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 09:00:22,162] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,162] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,162] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,163] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,164] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,176] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpwsy0_mzz.html
+[2026-06-17 09:00:22,178] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 09:00:22,178] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 09:00:22,180] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,181] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,181] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,181] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,185] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,186] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpurzsydyx.
+[2026-06-17 09:00:22,203] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpurzsydyx\article1.json
+[2026-06-17 09:00:22,221] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpurzsydyx\articles_array.json
+[2026-06-17 09:00:22,243] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpurzsydyx\page.html
+[2026-06-17 09:00:22,245] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 09:00:22,245] INFO [sentiment_module:235]: Pipeline batch run completed in 0.06s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 09:00:22,247] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,247] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,247] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,247] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,248] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,248] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 09:00:22,249] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 09:00:22,250] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 09:00:22,251] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,252] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,252] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,252] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,252] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,253] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 09:00:22,254] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,255] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,255] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,255] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,256] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,257] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmp8vm_osit.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmp8vm_osit.txt
+[2026-06-17 09:00:22,258] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 09:00:22,258] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 09:00:22,274] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 09:00:22,275] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,277] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,277] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,279] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 09:00:22,279] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,281] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 09:00:22,281] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,282] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,282] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 09:00:22,282] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 09:00:22,282] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 09:00:22,306] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 09:00:22,306] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 09:00:22,309] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,310] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,312] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,312] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,315] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,315] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,320] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,320] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,322] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,322] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,329] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,329] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 09:00:22,350] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 09:00:22,350] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:57,783] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp8idib8qp.html
+[2026-06-17 18:59:57,803] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 18:59:57,819] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp2xm_2_bw.json
+[2026-06-17 18:59:57,840] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmp9l3ouecs.json
+[2026-06-17 18:59:57,859] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp02aueq65.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 18:59:57,859] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp02aueq65.json
+[2026-06-17 18:59:57,865] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmp1onkke2k.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 18:59:57,866] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp1onkke2k.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 18:59:57,869] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 18:59:57,872] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpivuwlnsr.json
+[2026-06-17 18:59:57,879] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmpcc3zpp7i.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 18:59:57,883] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 18:59:57,907] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpmja_hqey.json
+[2026-06-17 18:59:57,911] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:57,913] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:57,913] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:57,913] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:57,918] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:57,918] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:57,918] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:57,918] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:57,921] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:57,942] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpj99zcbm7.json
+[2026-06-17 18:59:57,944] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 18:59:57,944] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 18:59:57,966] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:57,966] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:57,967] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:57,967] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:57,968] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:57,975] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpn8gnjc1p.html
+[2026-06-17 18:59:57,977] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 18:59:57,978] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 18:59:57,982] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:57,983] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:57,983] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:57,983] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:57,986] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:57,988] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpz1osz7x9.
+[2026-06-17 18:59:58,007] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpz1osz7x9\article1.json
+[2026-06-17 18:59:58,012] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpz1osz7x9\articles_array.json
+[2026-06-17 18:59:58,048] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpz1osz7x9\page.html
+[2026-06-17 18:59:58,052] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 18:59:58,052] INFO [sentiment_module:235]: Pipeline batch run completed in 0.06s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 18:59:58,058] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:58,059] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,059] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,059] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:58,061] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:58,061] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 18:59:58,066] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 18:59:58,066] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 18:59:58,071] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:58,072] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,072] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,072] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:58,074] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:58,074] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 18:59:58,077] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:58,077] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,078] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,078] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:58,080] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:58,081] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmpmps9uq0f.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmpmps9uq0f.txt
+[2026-06-17 18:59:58,083] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 18:59:58,083] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 18:59:58,115] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 18:59:58,116] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,121] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,122] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,127] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 18:59:58,128] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,132] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 18:59:58,132] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,133] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,133] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 18:59:58,133] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 18:59:58,133] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 18:59:58,158] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 18:59:58,158] INFO [sentiment_module:235]: Pipeline batch run completed in 0.03s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 18:59:58,161] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,161] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,164] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,164] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,166] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,166] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,170] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,171] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,173] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,174] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,184] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,184] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 18:59:58,208] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 18:59:58,208] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,084] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpqzrmq01q.html
+[2026-06-17 19:00:12,087] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 19:00:12,101] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpuyh9wan2.json
+[2026-06-17 19:00:12,105] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmp8j5cj7_h.json
+[2026-06-17 19:00:12,109] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpg0r_6gzo.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:00:12,109] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpg0r_6gzo.json
+[2026-06-17 19:00:12,114] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpfon9xak1.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:00:12,114] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpfon9xak1.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:00:12,116] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 19:00:12,118] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmp8b2hq8j4.json
+[2026-06-17 19:00:12,122] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmp7ay69w0g.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 19:00:12,126] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 19:00:12,129] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpkbuk4obe.json
+[2026-06-17 19:00:12,131] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,131] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,131] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,131] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,134] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,134] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,134] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,134] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,135] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,137] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp0efv7w1h.json
+[2026-06-17 19:00:12,139] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 19:00:12,139] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 19:00:12,161] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,161] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,161] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,161] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,162] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,166] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp7usruuwo.html
+[2026-06-17 19:00:12,168] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 19:00:12,168] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 19:00:12,170] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,170] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,171] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,171] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,173] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,174] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpcsvjblow.
+[2026-06-17 19:00:12,176] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpcsvjblow\article1.json
+[2026-06-17 19:00:12,178] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpcsvjblow\articles_array.json
+[2026-06-17 19:00:12,181] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpcsvjblow\page.html
+[2026-06-17 19:00:12,183] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 19:00:12,183] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 19:00:12,185] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,186] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,186] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,186] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,186] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,186] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 19:00:12,188] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 19:00:12,188] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 19:00:12,190] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,190] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,190] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,190] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,190] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,191] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 19:00:12,192] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,192] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,193] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,193] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,194] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,194] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmpjsr6u91u.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmpjsr6u91u.txt
+[2026-06-17 19:00:12,195] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 19:00:12,195] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 19:00:12,209] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 19:00:12,209] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,211] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,211] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,213] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 19:00:12,213] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,215] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:00:12,215] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,215] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,215] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:00:12,215] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:00:12,215] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 19:00:12,237] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2\results\sentiment_results.json
+[2026-06-17 19:00:12,237] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 19:00:12,241] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,241] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,243] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,243] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,245] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,245] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,249] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,250] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,253] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,253] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,261] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,261] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:00:12,283] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:00:12,283] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,796] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmph7b9svng.html
+[2026-06-17 19:11:20,798] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 19:11:20,814] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmph77a0btl.json
+[2026-06-17 19:11:20,819] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmpb02q4i3b.json
+[2026-06-17 19:11:20,823] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpkrhhmx95.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:11:20,824] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpkrhhmx95.json
+[2026-06-17 19:11:20,827] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpprbfx9l2.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:11:20,827] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpprbfx9l2.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:11:20,829] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 19:11:20,831] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpqsxycti9.json
+[2026-06-17 19:11:20,837] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmpeehnujyx.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 19:11:20,846] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 19:11:20,855] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpqy5ugp4y.json
+[2026-06-17 19:11:20,857] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,858] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,859] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,859] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,863] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,864] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,864] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,864] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,865] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,867] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpikuad8x5.json
+[2026-06-17 19:11:20,870] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:20,870] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 19:11:20,899] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,899] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,900] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,900] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,902] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,912] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpfq_gsx7q.html
+[2026-06-17 19:11:20,917] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:20,917] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 19:11:20,922] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,923] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,923] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,923] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,931] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,934] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmp_tpvh3cy.
+[2026-06-17 19:11:20,939] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp_tpvh3cy\article1.json
+[2026-06-17 19:11:20,943] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmp_tpvh3cy\articles_array.json
+[2026-06-17 19:11:20,953] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp_tpvh3cy\page.html
+[2026-06-17 19:11:20,956] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:20,956] INFO [sentiment_module:235]: Pipeline batch run completed in 0.03s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 19:11:20,960] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,961] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,961] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,961] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,962] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,962] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 19:11:20,964] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:20,965] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 19:11:20,967] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,968] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,968] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,968] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,969] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,969] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 19:11:20,971] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,972] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,972] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,972] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,973] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,974] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmpauue627e.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmpauue627e.txt
+[2026-06-17 19:11:20,975] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:20,975] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 19:11:20,989] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 19:11:20,989] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,991] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,991] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,993] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 19:11:20,993] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,994] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:20,994] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:20,994] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:20,994] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:20,995] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:20,995] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 19:11:21,017] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:21,018] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 19:11:21,021] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,021] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:21,023] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,023] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:21,025] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,025] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:21,029] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,029] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:21,033] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,033] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:21,039] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,039] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:21,059] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:21,059] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,421] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpef_j6sr_.html
+[2026-06-17 19:11:51,423] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 19:11:51,436] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp97vlyw7k.json
+[2026-06-17 19:11:51,441] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmpn_gme9nx.json
+[2026-06-17 19:11:51,445] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp5vvd_a1c.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:11:51,445] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp5vvd_a1c.json
+[2026-06-17 19:11:51,449] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpnx91o_es.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:11:51,450] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpnx91o_es.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 19:11:51,452] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 19:11:51,454] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmp2c3dnmt9.json
+[2026-06-17 19:11:51,458] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmp41qve_zq.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 19:11:51,462] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 19:11:51,465] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp6eiq7fl0.json
+[2026-06-17 19:11:51,467] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,468] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,468] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,468] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,470] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,471] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,471] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,471] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,472] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,474] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpcdgniyky.json
+[2026-06-17 19:11:51,475] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:51,475] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 19:11:51,492] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,492] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,492] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,492] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,493] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,496] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpu36roola.html
+[2026-06-17 19:11:51,498] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:51,498] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 19:11:51,500] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,500] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,501] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,501] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,503] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,504] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpls350_ga.
+[2026-06-17 19:11:51,506] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpls350_ga\article1.json
+[2026-06-17 19:11:51,508] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpls350_ga\articles_array.json
+[2026-06-17 19:11:51,511] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpls350_ga\page.html
+[2026-06-17 19:11:51,513] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:51,513] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 19:11:51,515] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,516] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,516] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,516] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,516] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,516] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 19:11:51,518] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:51,518] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 19:11:51,519] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,520] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,520] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,520] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,520] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,520] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 19:11:51,522] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,522] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,522] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,522] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,523] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,523] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmppp7dzmwo.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmppp7dzmwo.txt
+[2026-06-17 19:11:51,524] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:51,524] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 19:11:51,536] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 19:11:51,536] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,537] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,538] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,539] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 19:11:51,540] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,541] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 19:11:51,541] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,541] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,541] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 19:11:51,541] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 19:11:51,541] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 19:11:51,563] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 19:11:51,563] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 19:11:51,566] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,567] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,568] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,569] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,570] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,571] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,574] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,575] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,577] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,577] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,587] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,587] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 19:11:51,607] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 19:11:51,607] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:15,828] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpawz9z9w5.html
+[2026-06-17 21:26:15,831] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 21:26:15,855] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpbqacbkcu.json
+[2026-06-17 21:26:15,875] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmp8yg8_f_1.json
+[2026-06-17 21:26:15,903] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmppu6o2ac2.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:26:15,903] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmppu6o2ac2.json
+[2026-06-17 21:26:15,930] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmp62ovdcjx.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:26:15,930] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmp62ovdcjx.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:26:15,933] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 21:26:15,935] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpkhyqxa8q.json
+[2026-06-17 21:26:15,955] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmpq7_6j6bl.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 21:26:15,978] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 21:26:16,003] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpywispnrp.json
+[2026-06-17 21:26:16,008] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,010] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,011] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,011] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,024] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,025] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,025] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,025] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,027] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,047] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpf3xywna7.json
+[2026-06-17 21:26:16,051] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:26:16,052] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 21:26:16,071] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,071] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,071] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,071] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,072] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,091] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp8_4oandi.html
+[2026-06-17 21:26:16,093] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:26:16,093] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 21:26:16,096] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,096] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,097] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,097] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,102] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,103] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpt5hg7ipr.
+[2026-06-17 21:26:16,121] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpt5hg7ipr\article1.json
+[2026-06-17 21:26:16,151] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpt5hg7ipr\articles_array.json
+[2026-06-17 21:26:16,177] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpt5hg7ipr\page.html
+[2026-06-17 21:26:16,179] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:26:16,179] INFO [sentiment_module:235]: Pipeline batch run completed in 0.08s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 21:26:16,184] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,184] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,185] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,185] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,186] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,186] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 21:26:16,189] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:26:16,189] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 21:26:16,192] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,197] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,197] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,197] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,198] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,198] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 21:26:16,200] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,200] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,200] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,200] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,201] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,202] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmpnofjqq6h.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmpnofjqq6h.txt
+[2026-06-17 21:26:16,203] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:26:16,203] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 21:26:16,221] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 21:26:16,221] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,223] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,223] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,225] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 21:26:16,226] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,227] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:26:16,227] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,227] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,228] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:26:16,228] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:26:16,228] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 21:26:16,249] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:26:16,250] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 21:26:16,252] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,253] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,254] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,255] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,257] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,257] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,261] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,261] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,264] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,264] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,271] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,271] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:26:16,290] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:26:16,291] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,229] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpdr88b3se.html
+[2026-06-17 21:29:54,231] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 21:29:54,243] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpf_hknr6v.json
+[2026-06-17 21:29:54,248] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmp05l76bzz.json
+[2026-06-17 21:29:54,251] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpcszpgp_f.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:29:54,252] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpcszpgp_f.json
+[2026-06-17 21:29:54,255] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpkrwtqy9c.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:29:54,255] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpkrwtqy9c.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:29:54,258] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 21:29:54,260] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmp7_8hwy28.json
+[2026-06-17 21:29:54,264] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmpcf_iia9p.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 21:29:54,289] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 21:29:54,294] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp94sw75gs.json
+[2026-06-17 21:29:54,296] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,297] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,297] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,297] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,300] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,300] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,300] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,300] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,301] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,303] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp7ughzo8q.json
+[2026-06-17 21:29:54,304] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:29:54,304] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 21:29:54,326] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,326] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,326] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,326] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,327] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,331] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpvh8i0lra.html
+[2026-06-17 21:29:54,332] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:29:54,333] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 21:29:54,335] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,335] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,335] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,335] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,338] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,339] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpgkv4a4a9.
+[2026-06-17 21:29:54,341] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpgkv4a4a9\article1.json
+[2026-06-17 21:29:54,344] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpgkv4a4a9\articles_array.json
+[2026-06-17 21:29:54,349] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpgkv4a4a9\page.html
+[2026-06-17 21:29:54,350] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:29:54,351] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 21:29:54,353] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,353] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,353] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,353] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,354] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,354] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 21:29:54,355] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:29:54,356] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 21:29:54,357] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,357] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,358] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,358] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,358] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,358] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 21:29:54,360] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,360] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,360] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,360] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,361] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,361] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmphpo1ctii.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmphpo1ctii.txt
+[2026-06-17 21:29:54,362] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:29:54,362] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 21:29:54,374] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 21:29:54,374] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,376] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,377] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,378] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 21:29:54,379] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,380] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:29:54,381] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,381] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,381] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:29:54,381] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:29:54,381] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 21:29:54,422] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:29:54,423] INFO [sentiment_module:235]: Pipeline batch run completed in 0.04s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 21:29:54,428] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,428] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,432] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,433] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,438] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,439] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,448] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,448] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,451] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,452] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,463] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,463] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:29:54,485] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:29:54,486] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,570] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmp6dnpdjmz.html
+[2026-06-17 21:36:44,572] ERROR [sentiment_module.html_loader:141]: HTML file not found: non_existent_file_12345.html
+[2026-06-17 21:36:44,586] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpf3bd7jmd.json
+[2026-06-17 21:36:44,591] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 3 articles from C:\Users\vinuj\AppData\Local\Temp\tmp5q3yrlo8.json
+[2026-06-17 21:36:44,596] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpu8tv5plz.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Invalid Article'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:36:44,596] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpu8tv5plz.json
+[2026-06-17 21:36:44,601] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 0 in C:\Users\vinuj\AppData\Local\Temp\tmpfceku_o1.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a1', 'title': 'Title 1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:36:44,601] WARNING [sentiment_module.json_loader:98]: Skipping invalid article at index 1 in C:\Users\vinuj\AppData\Local\Temp\tmpfceku_o1.json: 1 validation error for ArticleSchema
+  Value error, At least one of 'clean_text' or 'content' must be a non-empty string. [type=value_error, input_value={'article_id': 'a2', 'title': 'Title 2'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+[2026-06-17 21:36:44,603] ERROR [sentiment_module.json_loader:65]: JSON file not found: non_existent_file_12345.json
+[2026-06-17 21:36:44,605] WARNING [sentiment_module.json_loader:69]: JSON file is empty: C:\Users\vinuj\AppData\Local\Temp\tmpmloxfwz3.json
+[2026-06-17 21:36:44,609] ERROR [sentiment_module.json_loader:76]: Malformed JSON in file C:\Users\vinuj\AppData\Local\Temp\tmp6ooyvq3f.json: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-06-17 21:36:44,614] ERROR [sentiment_module.json_loader:103]: Unsupported JSON format: <class 'str'>
+[2026-06-17 21:36:44,632] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp9kinsukz.json
+[2026-06-17 21:36:44,635] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,636] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,636] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,636] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,638] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,638] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,638] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,639] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,640] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,642] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmp1zoel17c.json
+[2026-06-17 21:36:44,643] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:36:44,643] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 21:36:44,657] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,657] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,658] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,658] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,659] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,663] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpab5sshse.html
+[2026-06-17 21:36:44,665] INFO [sentiment_module:230]: Saved 1 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:36:44,665] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 1, Success Files: 1, Failed Files: 0
+[2026-06-17 21:36:44,667] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,667] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,667] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,668] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,671] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,672] INFO [sentiment_module:208]: Directory batching found 3 files to process in C:\Users\vinuj\AppData\Local\Temp\tmpb8qbihj3.
+[2026-06-17 21:36:44,674] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 1 articles from C:\Users\vinuj\AppData\Local\Temp\tmpb8qbihj3\article1.json
+[2026-06-17 21:36:44,676] INFO [sentiment_module.json_loader:106]: Successfully loaded and validated 2 articles from C:\Users\vinuj\AppData\Local\Temp\tmpb8qbihj3\articles_array.json
+[2026-06-17 21:36:44,679] INFO [sentiment_module.html_loader:152]: Successfully loaded and cleaned HTML from C:\Users\vinuj\AppData\Local\Temp\tmpb8qbihj3\page.html
+[2026-06-17 21:36:44,681] INFO [sentiment_module:230]: Saved 4 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:36:44,682] INFO [sentiment_module:235]: Pipeline batch run completed in 0.01s. Total Processed: 4, Success Files: 3, Failed Files: 0
+[2026-06-17 21:36:44,685] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,685] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,685] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,685] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,685] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,686] INFO [sentiment_module:183]: Processing list of 2 articles directly.
+[2026-06-17 21:36:44,687] INFO [sentiment_module:230]: Saved 2 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:36:44,687] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 2, Success Files: 0, Failed Files: 0
+[2026-06-17 21:36:44,689] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,689] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,689] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,689] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,689] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,690] ERROR [sentiment_module:221]: Input path does not exist: non_existent_path_12345
+[2026-06-17 21:36:44,691] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,691] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,691] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,691] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,692] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,692] ERROR [sentiment_module:200]: Pipeline execution failed for file C:\Users\vinuj\AppData\Local\Temp\tmpw2ekyw10.txt: Unsupported suffix '.txt' for file: C:\Users\vinuj\AppData\Local\Temp\tmpw2ekyw10.txt
+[2026-06-17 21:36:44,693] INFO [sentiment_module:230]: Saved 0 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:36:44,693] INFO [sentiment_module:235]: Pipeline batch run completed in 0.00s. Total Processed: 0, Success Files: 0, Failed Files: 1
+[2026-06-17 21:36:44,705] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 21:36:44,706] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,707] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,707] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,709] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cpu
+[2026-06-17 21:36:44,709] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,710] INFO [sentiment_module:44]: Initializing Sentiment Analysis Pipeline...
+[2026-06-17 21:36:44,711] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,711] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,711] INFO [sentiment_module:51]: Pipeline initialized in 0.00s.
+[2026-06-17 21:36:44,711] INFO [sentiment_module:174]: Starting pipeline execution run...
+[2026-06-17 21:36:44,711] INFO [sentiment_module:183]: Processing list of 20 articles directly.
+[2026-06-17 21:36:44,732] INFO [sentiment_module:230]: Saved 20 sentiment features to C:\LATEST\news_detection\Model_v2\Main\module_2_sentimental\results\sentiment_results.json
+[2026-06-17 21:36:44,733] INFO [sentiment_module:235]: Pipeline batch run completed in 0.02s. Total Processed: 20, Success Files: 0, Failed Files: 0
+[2026-06-17 21:36:44,735] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,735] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,737] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,737] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,739] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,740] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,744] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,744] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,747] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,747] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,754] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,754] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.
+[2026-06-17 21:36:44,774] INFO [sentiment_module.sentiment_analyzer:47]: Initializing SentimentAnalyzer (Singleton) with model: cardiffnlp/twitter-roberta-base-sentiment-latest on device: cuda
+[2026-06-17 21:36:44,775] INFO [sentiment_module.sentiment_analyzer:58]: Model loaded and initialized successfully.

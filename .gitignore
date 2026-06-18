@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local virtual environment
+venv/
+.venv/
+env/
+
+# Pytest caching
+.pytest_cache/
+
+# VS Code directory
+.vscode/
+
+# Local logs and outputs
+logs/
+output/*
+!output/.gitkeep
