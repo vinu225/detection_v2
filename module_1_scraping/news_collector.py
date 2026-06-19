@@ -259,7 +259,7 @@ def collect_from_rss(
             except Exception as exc:
                 log.warning("Skipping bad RSS entry: %s", exc)
 
-        log.info("RSS %s → %d articles", url, count)
+        log.info("RSS %s >> %d articles", url, count)
         time.sleep(0.2)   # be polite
 
     log.info("RSS total collected: %d", len(articles))

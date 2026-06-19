@@ -78,6 +78,26 @@ class UnifiedPipelineResult:
 # Stage 1: News API Collection
 # ─────────────────────────────────────────────────────────────────────────────
 
+import re as _re
+
+def _extract_search_keywords(topic: str) -> str:
+    """
+    Strip natural-language filler words and return a clean keyword query
+    suitable for news API searches.
+    e.g. "recent news about the iran war ?" -> "iran war"
+    """
+    cleaned = topic.lower()
+    # Remove trailing punctuation
+    cleaned = cleaned.rstrip("?!.,;:")
+    # Remove common filler phrases
+    filler = r"\b(recent|news|about|the|what|is|are|of|who|info|for|on|tell|me|give|latest|today|current|happening|regarding|related|update|updates|in|and|or|a|an)\b"
+    cleaned = _re.sub(filler, " ", cleaned)
+    # Collapse whitespace
+    cleaned = _re.sub(r"\s+", " ", cleaned).strip()
+    # Fall back to original topic if cleaning made it empty
+    return cleaned if len(cleaned) >= 3 else topic.strip("?!., ")
+
+
 def _collect_news_articles(
     topic: str,
     db: Optional[Database] = None,
@@ -87,19 +107,24 @@ def _collect_news_articles(
     preprocesses them, and optionally stores in MongoDB.
     Returns (article_dicts, stage_metadata).
     """
+    # Clean up natural-language queries into short keyword phrases for APIs
+    search_query = _extract_search_keywords(topic)
+    log.info("Stage 1 — topic=%r → search_query=%r", topic, search_query)
+
     providers = ["gnews", "newsapi", "rss", "search"]
     all_raw = []
     provider_counts = {}
 
     for p in providers:
         try:
-            log.info("Stage 1 — querying provider: %s for topic: %r", p, topic)
-            articles = collect_articles(provider=p, query=topic, page_size=10)
+            log.info("Stage 1 — querying provider: %s for topic: %r", p, search_query)
+            articles = collect_articles(provider=p, query=search_query, page_size=10)
             provider_counts[p] = len(articles)
             all_raw.extend(articles)
         except Exception as exc:
             log.warning("Provider %s failed: %s", p, exc)
             provider_counts[p] = 0
+
 
     # Preprocess and deduplicate
     article_dicts = []
